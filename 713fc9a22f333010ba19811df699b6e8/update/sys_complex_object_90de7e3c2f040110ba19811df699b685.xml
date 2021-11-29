@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdcde7e3c500401106ea6a894a5be9284</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>713fc9a22f333010ba19811df699b6e8</scope_name>
+        <serialized_content>{"FlowDesigner:FDdcde7e3c500401106ea6a894a5be9284":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDdcde7e3c500401106ea6a894a5be9284.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"72455456-40d8-45c2-890b-9309f80bbb09\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdcde7e3c500401106ea6a894a5be9284\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-23 17:32:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90de7e3c2f040110ba19811df699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDdcde7e3c500401106ea6a894a5be9284</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>sys_complex_object_90de7e3c2f040110ba19811df699b685</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 17:32:13</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

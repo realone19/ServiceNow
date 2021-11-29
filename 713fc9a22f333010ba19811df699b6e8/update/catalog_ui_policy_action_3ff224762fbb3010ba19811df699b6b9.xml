@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:d26f50b22fbb3010ba19811df699b68b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 01:03:56</sys_created_on>
+        <sys_id>3ff224762fbb3010ba19811df699b6b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3ff224762fbb3010ba19811df699b6b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-18 13:12:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Pick from exisiting Application Service ">f5022c362fbb3010ba19811df699b605</ui_policy>
+        <variable>description</variable>
+        <variable_set display_value="Application Service">8c362ae62f373010ba19811df699b68c</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

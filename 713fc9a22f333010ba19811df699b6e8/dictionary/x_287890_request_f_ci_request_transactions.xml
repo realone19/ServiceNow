@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CI Request Transactions" max_length="40" name="x_287890_request_f_ci_request_transactions" sizeclass="61" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Application Service" max_length="32" name="application_service" reference="cmdb_ci_service_auto" reference_qual="operational_status=1^EQ" reference_qual_condition="operational_status=1^EQ" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Outcome CI" max_length="32" name="outcome" reference="cmdb_ci" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Payload" max_length="8000" name="request_payload" type="string"/>
+        <element attributes="encode_utf8=false" label="Service Offering" max_length="32" name="service_offering" reference="task_service_offering" reference_qual="service_offering.service_status=operational^EQ" reference_qual_condition="service_offering.service_status=operational^EQ" type="reference"/>
+        <element dependent="source_table" dependent_on_field="source_table" label="Source Request ID" max_length="32" name="source_request_id" type="document_id" use_dependent_field="true"/>
+        <element label="Source Table" max_length="80" name="source_table" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Working in progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Canceled" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Failed" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="source_request_id"/>
+        </index>
+        <index name="index2">
+            <element name="application_service"/>
+        </index>
+        <index name="index3">
+            <element name="requested_for"/>
+        </index>
+        <index name="index4">
+            <element name="outcome"/>
+        </index>
+        <index name="index5">
+            <element name="service_offering"/>
+        </index>
+    </element>
+</database>

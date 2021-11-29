@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287890_request_f.requestFrameworkUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>requestFrameworkUtils</name>
+        <script><![CDATA[var requestFrameworkUtils = Class.create();
+requestFrameworkUtils.prototype = {
+    initialize: function() {},
+
+    retriveAttr: function(currentObj) {
+        attrs = [];
+        var attrAppObj = {};
+		var otherObj = {};
+        var ritmNumber = currentObj.number;
+        var count = 0;
+
+        var grCi = new GlideRecord("sc_item_option_mtom");
+        grCi.addQuery("request_item.number", ritmNumber);
+        grCi.query();
+		var grRTL = new GlideRecord('x_287890_request_f_request_transaction_lookup');
+
+        while (grCi.next()) {
+            //gs.info("rilwan");
+            if (grCi.sc_item_option.item_option_new.variable_set.internal_name == "application_service") {
+                var questionID = grCi.sc_item_option.item_option_new;
+				
+				grRTL.get('variable',questionID);
+				grRTL.value;
+			
+                var answer = grCi.sc_item_option.value.toString();
+                attrAppObj[grRTL.value] = answer;
+                count++;
+            } else {
+                var questionOther = grCi.sc_item_option.item_option_new;
+				grRTL.get('variable',questionOther);
+				grRTL.value;
+				
+                var answerOther = grCi.sc_item_option.value.toString();
+                otherObj[grRTL.value] = answerOther;
+                count++;
+            }
+
+        }
+        //gs.info("Rilwan " + JSON.stringify(attrAppObj)+ " " + count );
+        return [attrAppObj,otherObj];
+    },
+
+
+    retriveCi: function(currentObj) {
+        var tableId = currentObj.variables.table_id.toString();
+		var catTableId = currentObj.variables.server_table.toString();
+		var attrs = this.retriveAttr(currentObj);
+        AppObj = {
+            "class": tableId,
+            "operation": "insert",
+            "sys_id": "",
+			"attributes":attrs[0]
+        };
+		otherObj = {
+            "class": catTableId,
+            "operation": "insert",
+            "sys_id": "",
+			"attributes":attrs[1]
+        };
+		
+        return [AppObj,otherObj];
+		
+    },
+
+
+
+    createCiRequest: function(currentObj) {
+        var ritmNumber = currentObj.number.toString();
+        var itemName = currentObj.cat_item.name.toString();
+
+        var gr = new GlideRecord("x_287890_request_f_ci_request_transactions");
+        gr.initialize();
+
+
+        var obj = {
+
+            "RITM Number": ritmNumber,
+            "Item Name": itemName,
+			"Relationship": gs.getProperty("x_287890_request_f.cmdb.rel.depends.on"),
+            "Ci": this.retriveCi(currentObj)
+
+        };
+
+        gr.request_payload = JSON.stringify(obj);
+        gr.insert();
+        gs.info("Rilwan " + JSON.stringify(obj));
+
+    },
+
+    type: 'requestFrameworkUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-18 17:25:11</sys_created_on>
+        <sys_id>749acd972f37b010ba19811df699b6d6</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>requestFrameworkUtils</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>sys_script_include_749acd972f37b010ba19811df699b6d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 10:33:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 18:16:19</sys_created_on>
+        <sys_id>2e2f880b2f777010ba19811df699b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil_admin</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_security_acl display_value="">f12f480b2f777010ba19811df699b6d5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2e2f880b2f777010ba19811df699b6bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 18:16:19</sys_updated_on>
+        <sys_user_role display_value="itil_admin" name="itil_admin">28322f3cc611228500e20459e33eef34</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</application>
+        <file_path/>
+        <instance_id>edf5d598db15338007072f17d49619d0</instance_id>
+        <instance_name>dev85001</instance_name>
+        <name>sys_security_acl_role_2e2f880b2f777010ba19811df699b6bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-17 18:16:19</sys_created_on><sys_id>2e2f880b2f777010ba19811df699b6bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.itil_admin</sys_name><sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package><sys_policy/><sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope><sys_security_acl display_value="">f12f480b2f777010ba19811df699b6d5</sys_security_acl><sys_update_name>sys_security_acl_role_2e2f880b2f777010ba19811df699b6bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-17 18:16:19</sys_updated_on><sys_user_role display_value="itil_admin" name="itil_admin">28322f3cc611228500e20459e33eef34</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1757389432</payload_hash>
+        <record_name>.itil_admin</record_name>
+        <reverted_from/>
+        <source>063fc9a22f333010ba19811df699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 18:16:19</sys_created_on>
+        <sys_id>086fc84b2f777010ba19811df699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d2f1d276c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 18:16:19</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>406fc84b3e777010ac801cc756278b72</update_guid>
+        <update_guid_history>406fc84b3e777010ac801cc756278b72:1757389432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".itil_admin">113154cb2f777010ba19811df699b6b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 18:24:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6b31fa1c58084b6eaf52114eed1fae19</sys_id>
+        <sys_metadata>2e2f880b2f777010ba19811df699b6bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil_admin</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_scope_delete display_value="">176b057f1e5d46b08326f9bdda68b1c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_2e2f880b2f777010ba19811df699b6bc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_2e2f880b2f777010ba19811df699b6bc">086fc84b2f777010ba19811df699b672</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 18:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:e64c26f62f337010ba19811df699b615</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 11:17:05</sys_created_on>
+        <sys_id>5b5feebe2f337010ba19811df699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto_calcualted_name</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5b5feebe2f337010ba19811df699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 11:17:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Autuo calculate  name (name + used for)">177e26be2f337010ba19811df699b6b4</ui_policy>
+        <variable>auto_calcualted_name</variable>
+        <variable_set display_value="Application Service">8c362ae62f373010ba19811df699b68c</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</application>
+        <file_path/>
+        <instance_id>edf5d598db15338007072f17d49619d0</instance_id>
+        <instance_name>dev85001</instance_name>
+        <name>catalog_ui_policy_action_5b5feebe2f337010ba19811df699b6ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:e64c26f62f337010ba19811df699b615</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-17 11:17:05</sys_created_on><sys_id>5b5feebe2f337010ba19811df699b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>auto_calcualted_name</sys_name><sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package><sys_policy/><sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope><sys_update_name>catalog_ui_policy_action_5b5feebe2f337010ba19811df699b6ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-17 11:17:05</sys_updated_on><table/><ui_policy display_value="Autuo calculate  name (name + used for)">177e26be2f337010ba19811df699b6b4</ui_policy><variable>auto_calcualted_name</variable><variable_set display_value="Application Service">8c362ae62f373010ba19811df699b68c</variable_set><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1843108153</payload_hash>
+        <record_name>auto_calcualted_name</record_name>
+        <reverted_from/>
+        <source>063fc9a22f333010ba19811df699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 11:17:05</sys_created_on>
+        <sys_id>436f6ebe2f337010ba19811df699b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d2d9d55d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 11:17:05</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8b6f6ebedd3370102f108766c22407a0</update_guid>
+        <update_guid_history>8b6f6ebedd3370102f108766c22407a0:-1843108153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="auto_calcualted_name">6de736762f737010ba19811df699b689</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 11:54:07</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0b13c2a0fe8440cd9ffde2856148c3d1</sys_id>
+        <sys_metadata>5b5feebe2f337010ba19811df699b6ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>auto_calcualted_name</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_scope_delete display_value="">176b057f1e5d46b08326f9bdda68b1c4</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_5b5feebe2f337010ba19811df699b6ca</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_5b5feebe2f337010ba19811df699b6ca">436f6ebe2f337010ba19811df699b6a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 11:54:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

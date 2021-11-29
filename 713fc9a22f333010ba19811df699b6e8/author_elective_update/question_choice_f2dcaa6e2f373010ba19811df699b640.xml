@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="RAM">d23c622e2f373010ba19811df699b681</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 16:27:46</sys_created_on>
+        <sys_id>f2dcaa6e2f373010ba19811df699b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4GB</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>question_choice_f2dcaa6e2f373010ba19811df699b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 16:27:46</sys_updated_on>
+        <text>4GB</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f2dcaa6e2f373010ba19811df699b640"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f2dcaa6e2f373010ba19811df699b640</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 16:27:46</sys_created_on>
+        <sys_id>40fcea6e2f373010ba19811df699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 16:27:46</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f2dcaa6e2f373010ba19811df699b640</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 16:27:46</sys_created_on>
+        <sys_id>08fcea6e2f373010ba19811df699b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 16:27:46</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</application>
+        <file_path/>
+        <instance_id>edf5d598db15338007072f17d49619d0</instance_id>
+        <instance_name>dev85001</instance_name>
+        <name>question_choice_f2dcaa6e2f373010ba19811df699b640</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="RAM">d23c622e2f373010ba19811df699b681</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-16 16:27:46</sys_created_on><sys_id>f2dcaa6e2f373010ba19811df699b640</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4GB</sys_name><sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package><sys_policy/><sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope><sys_update_name>question_choice_f2dcaa6e2f373010ba19811df699b640</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-16 16:27:46</sys_updated_on><text>4GB</text><value>1</value></question_choice><fx_price action="delete_multiple" query="id=f2dcaa6e2f373010ba19811df699b640"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>f2dcaa6e2f373010ba19811df699b640</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-16 16:27:46</sys_created_on><sys_id>40fcea6e2f373010ba19811df699b6c2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-16 16:27:46</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>f2dcaa6e2f373010ba19811df699b640</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-16 16:27:46</sys_created_on><sys_id>08fcea6e2f373010ba19811df699b6c1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-16 16:27:46</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1288885694</payload_hash>
+        <record_name>4GB</record_name>
+        <reverted_from/>
+        <source>063fc9a22f333010ba19811df699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 16:27:46</sys_created_on>
+        <sys_id>80fcea6e2f373010ba19811df699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d299368be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 16:27:46</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>c8fcea6e0c3730108c9cd8421d0e10c3</update_guid>
+        <update_guid_history>c8fcea6e0c3730108c9cd8421d0e10c3:-1288885694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4GB">c60d2e6e2f373010ba19811df699b6a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 16:28:09</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1b8b4cfab99b4c1c86c805b30b4b38f9</sys_id>
+        <sys_metadata>f2dcaa6e2f373010ba19811df699b640</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4GB</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_parent display_value="RAM">d23c622e2f373010ba19811df699b681</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_scope_delete display_value="">176b057f1e5d46b08326f9bdda68b1c4</sys_scope_delete>
+        <sys_update_name>question_choice_f2dcaa6e2f373010ba19811df699b640</sys_update_name>
+        <sys_update_version display_value="question_choice_f2dcaa6e2f373010ba19811df699b640">80fcea6e2f373010ba19811df699b6c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 16:28:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

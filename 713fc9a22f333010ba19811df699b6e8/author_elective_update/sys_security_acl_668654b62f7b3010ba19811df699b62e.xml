@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_287890_request_f_ci_request_transactions">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <name>x_287890_request_f_ci_request_transactions</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 00:10:05</sys_created_on>
+        <sys_id>668654b62f7b3010ba19811df699b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_287890_request_f_ci_request_transactions</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_update_name>sys_security_acl_668654b62f7b3010ba19811df699b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 00:10:05</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</application>
+        <file_path/>
+        <instance_id>edf5d598db15338007072f17d49619d0</instance_id>
+        <instance_name>dev85001</instance_name>
+        <name>sys_security_acl_668654b62f7b3010ba19811df699b62e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="x_287890_request_f_ci_request_transactions">requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><name>x_287890_request_f_ci_request_transactions</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-17 00:10:05</sys_created_on><sys_id>668654b62f7b3010ba19811df699b62e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_287890_request_f_ci_request_transactions</sys_name><sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package><sys_policy/><sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope><sys_update_name>sys_security_acl_668654b62f7b3010ba19811df699b62e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-17 00:10:05</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-157511649</payload_hash>
+        <record_name>x_287890_request_f_ci_request_transactions</record_name>
+        <reverted_from/>
+        <source>063fc9a22f333010ba19811df699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 00:10:05</sys_created_on>
+        <sys_id>d8c658fa2f7b3010ba19811df699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d2b3aac330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 00:10:05</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>d0c658fabf7b30103bf38538ec47b5d0</update_guid>
+        <update_guid_history>d0c658fabf7b30103bf38538ec47b5d0:-157511649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-17 18:23:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>a389a0f6d8494d4c92fa9e14b2f05a81</sys_id>
+        <sys_metadata>668654b62f7b3010ba19811df699b62e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_287890_request_f_ci_request_transactions</sys_name>
+        <sys_package display_value="Request Framework" source="x_287890_request_f">713fc9a22f333010ba19811df699b6e8</sys_package>
+        <sys_parent display_value="x_287890_request_f_ci_request_transactions">0983d9a62f333010ba19811df699b656</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Framework">713fc9a22f333010ba19811df699b6e8</sys_scope>
+        <sys_scope_delete display_value="">176b057f1e5d46b08326f9bdda68b1c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_668654b62f7b3010ba19811df699b62e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_668654b62f7b3010ba19811df699b62e">d8c658fa2f7b3010ba19811df699b6d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-17 18:23:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
