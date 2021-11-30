@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="CI Request Transactions" max_length="40" name="x_287890_request_f_ci_request_transactions" sizeclass="61" type="collection">
+    <element label="CI Request Transactions" max_length="40" name="x_287890_request_f_ci_request_transactions" sizeclass="62" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="encode_utf8=false" label="Application Service" max_length="32" name="application_service" reference="cmdb_ci_service_auto" reference_qual="operational_status=1^EQ" reference_qual_condition="operational_status=1^EQ" type="reference"/>
+        <element label="Correlation Display" max_length="40" name="correlation_display" type="string"/>
+        <element label="Correlation ID" max_length="100" name="correlation_id" type="string"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
         <element attributes="encode_utf8=false" label="Outcome CI" max_length="32" name="outcome" reference="cmdb_ci" type="reference"/>
         <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
